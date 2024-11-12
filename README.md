@@ -1,2 +1,2 @@
 # meuPortfolio
-Projeto de meu Portfolio, para me apresentar como desenvolvedor.
+Projeto do meu Portfolio, para me apresentar como desenvolvedor.
