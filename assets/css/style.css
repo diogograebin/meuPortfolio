@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #022840;
+}
+
+#mobile-btn{
+    display: none;
+}
+
+#mobile-menu{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1170px){
+    #nav-list, #cabecalho {
+        display: none;
+    }
+
+    #mobile-btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile-menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mobile-nav-list{
+
+    }
+}
