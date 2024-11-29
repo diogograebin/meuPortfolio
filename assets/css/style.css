@@ -13,6 +13,10 @@ h1{
     color: #fff;
 }
 
+a{
+    text-decoration: none;
+}
+
 #mobile-btn{
     display: none;
 }
@@ -20,7 +24,6 @@ h1{
 #mobile-menu{
     display: none;
 }
-
 
 #hero-section {
     display: flex;
@@ -30,12 +33,17 @@ h1{
 }
 
 #texto-hero-section {
-    width: 505px;
-    height: 240px;
+    width: 550px;
+    height: 300px;
+    margin-bottom: 20px;
 }
 
 #texto-hero-section h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+
+#texto-hero-section img{
+    fill: #fff;
 }
 
 #dynamic-text {
@@ -50,6 +58,41 @@ h1{
     50% {
         border-color: transparent;
     }
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+}
+
+.icon {
+    width: 60px; /* Defina um tamanho padrão para todos os ícones */
+    height: 60px;
+    fill: white; /* Cor padrão para os ícones */
+    transition: transform 0.3s, fill 0.3s; /* Efeitos visuais */
+}
+
+.icon:hover {
+    fill: #88DFF2; /* Alterar cor ao passar o mouse */
+    transform: scale(1.1); /* Pequeno efeito de zoom */
+}
+
+.social-links button{
+    width: 230px;
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: #024873;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-links button:hover{
+    background-color: #0A0C0D;
+    transform: scale(1.05);
 }
 
 
