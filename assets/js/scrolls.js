@@ -14,10 +14,20 @@ document.addEventListener('DOMContentLoaded', function () {
         const element = document.querySelector(`#${link.id}`);
         const target = document.querySelector(link.target);
 
-        if (element && target) {
+        if (element) {
             element.addEventListener('click', function (event) {
                 event.preventDefault();
-                target.scrollIntoView({ behavior: 'smooth' });
+
+                if (link.id.includes('home')) {
+                    // Scroll para o topo exato da página
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth',
+                    });
+                } else if (target) {
+                    // Scroll para outras seções
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
             });
         }
     });
