@@ -9,7 +9,7 @@ body{
     background-color: #022840;
 }
 
-h1{
+h1, p{
     color: #fff;
 }
 
@@ -95,6 +95,18 @@ a{
     transform: scale(1.05);
 }
 
+#sobre-section{
+    margin-top: 150px;
+    height: 1000px;
+    background-color: #0A0C0D;
+    display: flex;
 
+}
 
+#texto-section-sobre{
+    border: 1px solid red;
+}
 
+#sobre-section img{
+    width: 35%;
+}
