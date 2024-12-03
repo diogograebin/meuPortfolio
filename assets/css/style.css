@@ -50,7 +50,7 @@ a{
     gap: 10px;
 }
 
-#texto-hero-section h1, #sobre-section h1 {
+#texto-hero-section h1, #sobre-section h1, #bloco-projetos-section h1 {
     font-size: 3rem;
 }
 
@@ -140,9 +140,59 @@ a{
     flex-direction: row;
     align-items: center;
     padding-top: 10px;
-    gap: 10px;
+    gap: 20px;
 }
 
 #icons-sobre img{
     width: 50px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+#icons-sobre img:hover {
+    transform: scale(1.1); /* Leve aumento no tamanho */
+}
+
+#projetos-section{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+#bloco-projetos-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 200vh;
+}
+
+#bloco-projetos-section h1{
+    padding: 40px;
+}
+
+
+#grade-projetos{
+    width: 180vh;
+    height: 800px;
+    flex-direction: column;
+}
+
+.linha-grade{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.projeto img{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.projeto{
+    width: 401px;
+    height: 325px;
+    background-color: #024873;
+    border-radius: 12px;
 }

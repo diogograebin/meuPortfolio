@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const navbarHeight = document.querySelector('#cabecalho').offsetHeight; // Altura do navbar
+
     const links = [
         { id: 'link-home', target: '#hero-section' },
         { id: 'link-sobre', target: '#sobre-section' },
@@ -25,8 +27,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         behavior: 'smooth',
                     });
                 } else if (target) {
-                    // Scroll para outras seções
-                    target.scrollIntoView({ behavior: 'smooth' });
+                    // Scroll ajustado para outras seções
+                    const targetPosition = target.offsetTop - navbarHeight;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth',
+                    });
                 }
             });
         }

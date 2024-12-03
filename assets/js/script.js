@@ -56,3 +56,4 @@ document.addEventListener("DOMContentLoaded", () => {
         cursor.style.opacity = cursor.style.opacity === "1" ? "0" : "1";
     }, 500); // Alterna a opacidade a cada 500ms
 });
+
