@@ -10,7 +10,7 @@ body{
     background-color: #022840;
 }
 
-h1, p{
+h1, p, h3{
     color: #fff;
 }
 
@@ -187,7 +187,9 @@ a{
 
 .projeto img{
     width: 100%;
-    border-radius: 12px 12px 0px 0px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    transition: transform 0.3s ease-in-out; 
 }
 
 .projeto{
@@ -195,4 +197,19 @@ a{
     height: 325px;
     background-color: #024873;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+    position: relative; /* Necessário para o controle do conteúdo dentro do contêiner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projeto:hover img {
+    transform: scale(1.1); /* Aplica o zoom quando o mouse está sobre o elemento */
+}
+
+.texto-projeto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
