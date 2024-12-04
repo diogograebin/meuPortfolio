@@ -154,7 +154,6 @@ a{
 }
 
 #projetos-section{
-    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -166,7 +165,6 @@ a{
     flex-direction: column;
     align-items: center;
     height: 600px;
-    width: 200vh;
 }
 
 #bloco-projetos-section h1{
@@ -176,7 +174,6 @@ a{
 
 .linha-grade{
     display: flex;
-    width: 1600px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -229,7 +226,7 @@ a{
     flex-direction: column;
     padding: 20px;
     padding-bottom: 0;
-    height: 200px;
+    height: 170px;
     gap: 8px;
 }
 
