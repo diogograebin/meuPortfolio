@@ -14,6 +14,7 @@ header{
     top: 0; /* Fica no topo da página */
     left: 0;
     width: 100%; /* Ocupa toda a largura da página */
+    z-index: 1000;
 }
 
 #nav-list{
@@ -35,6 +36,8 @@ header{
 
 #mobile-menu{
     display: none;
+    margin-top: 60px;
+    position: fixed;
 }
 
 
@@ -55,6 +58,12 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: fixed; /* Mantém o cabeçalho fixo na tela */
+        top: 0; /* Fica no topo da página */
+        left: 0;
+        width: 100%; /* Ocupa toda a largura da página */
+        background-color: #022840;
+        z-index: 1000;
     }
     #mobile-nav-list{
         display: flex;
