@@ -38,3 +38,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    AOS.init({
+        duration: 1300, 
+        once: false, 
+        offset: 120, 
+    });
+});
