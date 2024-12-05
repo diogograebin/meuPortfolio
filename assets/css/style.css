@@ -123,8 +123,8 @@ a{
     flex-direction: column;
 }
 
-#sobre-section img{
-    width: 30%;
+#imagem-principal-sobre img{
+
 }
 
 #texto-section-sobre p{
@@ -258,7 +258,7 @@ a{
 
 @media screen and (max-width: 1300px){
     #hero-section{
-        margin-top: 100px;
+        margin-top: 70px;
         height: 100vh;
         margin-bottom: 100px;
     }
@@ -282,5 +282,64 @@ a{
         align-items: center;
         text-align: center;
         width: 70%;
+    }
+
+    #sobre-section{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    #texto-section-sobre{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .linha-grade{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .projeto{
+        height: 100%;
+        width: 600px;
+        border-radius: 20px;
+    }
+
+    .texto-projeto{
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 800px){
+        #hero-section{
+            height: 140vh;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #bloco-hero-section{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 70px;
+            height: 70%;
+            width: 90%;
+            font-size: 0.5rem;
+            color: #024873;
+
+        }
+        #bloco-hero-section h1{
+            font-size: 2.5rem;
+        }
+
+
     }
 }
