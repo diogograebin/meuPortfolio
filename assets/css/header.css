@@ -42,43 +42,62 @@ header{
 
 
 
-@media screen and (max-width: 800px){
-    #nav-list{
+@media screen and (max-width: 800px) {
+    #nav-list {
         display: none;
     }
 
-    #mobile-btn{
+    #mobile-btn {
         display: block;
         border: none;
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
     }
-    #mobile-menu.active {
+
+    #mobile-menu {
         display: flex;
         flex-direction: column;
-        font-size: 2rem;
         align-items: center;
-        height: 350px;
-        position: fixed; /* Mantém o cabeçalho fixo na tela */
-        top: 0; /* Fica no topo da página */
+        height: 0; /* Inicialmente fechado */
+        overflow: hidden; /* Esconde conteúdo ao fechar */
+        position: fixed;
+        top: 0;
         left: 0;
-        width: 100%; /* Ocupa toda a largura da página */
+        width: 100%;
         background-color: #022840;
         z-index: 1000;
+        opacity: 0; /* Inicialmente invisível */
+        transform: translateY(-20px); /* Ligeiramente acima */
+        transition: all 0.4s ease; /* Suave transição de altura, opacidade e posição */
     }
 
-    #mobile-menu.active a{
-        margin-bottom: 60px;
+    #mobile-menu.active {
+        height: 350px; 
+        opacity: 1; 
+        font-size: 1.8rem;
+        transform: translateY(0); 
     }
-    #mobile-nav-list{
+
+    #mobile-nav-list {
         display: flex;
         flex-direction: column;
         gap: 12px;
         margin: 12px 0px;
     }
-    #mobile-nav-list .nav-item{
+
+    #mobile-nav-list .nav-item {
         list-style: none;
         text-align: center;
+    }
+
+    #mobile-menu a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #mobile-menu a:hover {
+        color: #88DFF2;
     }
 }

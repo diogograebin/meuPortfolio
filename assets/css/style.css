@@ -369,7 +369,6 @@ a{
             display: flex;
             align-items: center;
             justify-content: space-around;
-            border: 1px solid red;
         }
 
         #imagem-principal-sobre img{
@@ -380,7 +379,6 @@ a{
         
         #icons-sobre img{
             width: 40px;
-            border: 1px solid rgb(0, 4, 255);
         }
 
         #texto-section-sobre{
@@ -399,7 +397,6 @@ a{
         }
 
         .buttons-projeto{
-            border: 1px solid gray;
             padding-top: 80px;
         }
 

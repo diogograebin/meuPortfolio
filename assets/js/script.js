@@ -9,6 +9,7 @@ $(document).ready(function () {
 });
 
 
+
 document.addEventListener("DOMContentLoaded", () => {
     const words = ["tecnologia.", "desenvolver.", "inovação.", "aprender.", "solucionar."];
     const span = document.getElementById("dynamic-text");
