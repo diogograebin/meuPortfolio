@@ -57,13 +57,19 @@ header{
     #mobile-menu.active {
         display: flex;
         flex-direction: column;
+        font-size: 2rem;
         align-items: center;
+        height: 350px;
         position: fixed; /* Mantém o cabeçalho fixo na tela */
         top: 0; /* Fica no topo da página */
         left: 0;
         width: 100%; /* Ocupa toda a largura da página */
         background-color: #022840;
         z-index: 1000;
+    }
+
+    #mobile-menu.active a{
+        margin-bottom: 60px;
     }
     #mobile-nav-list{
         display: flex;
