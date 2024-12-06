@@ -341,8 +341,6 @@ a{
             width: 90%;
             font-size: 0.5rem;
             color: #024873;
-            
-
         }
 
         #bloco-hero-section img{
@@ -351,9 +349,9 @@ a{
         }
 
         #bloco-hero-section h1{
-            font-size: 2.5rem;
-            width: 120%;
-            height: 80%;
+            font-size: 2.2rem;
+            width: 315px;
+            height: 500px;
         }
 
         .social-links{
@@ -370,24 +368,24 @@ a{
         #sobre-section{
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
+            border: 1px solid red;
         }
 
         #imagem-principal-sobre img{
             width: 300px;
             display: flex;
-            margin-top: 50px;
             align-items: center;
         }
         
         #icons-sobre img{
             width: 40px;
+            border: 1px solid rgb(0, 4, 255);
         }
 
         #texto-section-sobre{
             width: 80%;
             height: 500px;
-            margin-top: -180px;
         }
 
         .projeto{
@@ -397,7 +395,12 @@ a{
 
         .texto-projeto{
             height: 200px;
-            padding-bottom: 80px;
+            padding-bottom: 120px;
+        }
+
+        .buttons-projeto{
+            border: 1px solid gray;
+            padding-top: 80px;
         }
 
 
