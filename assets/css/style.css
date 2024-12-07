@@ -10,9 +10,10 @@ body{
     background-color: #022840;
 }
 
-h1, p, h3{
+h1, h2, h4, p, h3{
     color: #fff;
 }
+
 
 a{
     text-decoration: none;
@@ -60,7 +61,7 @@ a{
     width: 140px;
 }
 
-#texto-hero-section h1, #sobre-section h1, #bloco-projetos-section h1 {
+#texto-hero-section h1, #sobre-section h1, #bloco-projetos-section h1, #bloco-habilidades h1 {
     font-size: 3rem;
 }
 
@@ -164,6 +165,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 240vh;
 }
 
 #bloco-projetos-section{
@@ -262,6 +264,113 @@ a{
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+#habilidades-section{
+    height: 110vh;
+    width: 100%;
+    background-color:#0A0C0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#habilidades-section h1{
+    padding: 20px;
+}
+
+#bloco-habilidades{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-cards{
+    width: 85%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+#container-tecnologias {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Necessário para a posição da linha */
+}
+
+#container-estudos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Necessário para a posição da linha */
+}
+
+/* Linha personalizada */
+.linha-borda {
+    position: absolute;
+    width: 2px; /* Espessura da linha */
+    background-color: #fff; /* Cor da linha */
+    height: 80%; /* Tamanho da linha relativo ao container */
+    top: 10%; /* Centraliza verticalmente */
+}
+
+/* Linha no container de tecnologias (lado direito) */
+#container-tecnologias .linha-borda {
+    right: 0; /* Alinha a linha à direita */
+}
+
+/* Linha no container de estudos (lado esquerdo) */
+#container-estudos .linha-borda {
+    left: 0; /* Alinha a linha à esquerda */
+}
+
+#container-tecnologias h2, #container-estudos h2{
+    padding: 20px;
+}
+
+.linha-tecnologia{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.tecnologias{
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1300px){
     #hero-section{
