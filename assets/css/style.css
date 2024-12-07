@@ -165,7 +165,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 240vh;
+    height: 250vh;
 }
 
 #bloco-projetos-section{
@@ -419,6 +419,10 @@ a{
         height: auto;
     }
 
+    #projetos-section{
+        height: 850vh;
+    }
+
     .projeto{
         height: 100%;
         width: 600px;
@@ -493,6 +497,10 @@ a{
         #texto-section-sobre{
             width: 80%;
             height: 500px;
+        }
+
+        #projetos-section{
+            height: 750vh;
         }
 
         .projeto{
