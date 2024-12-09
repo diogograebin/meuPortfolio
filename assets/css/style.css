@@ -10,7 +10,7 @@ body{
     background-color: #022840;
 }
 
-h1, h2, h4, p, h3{
+h1, h2, h4, p, h3, ul, li{
     color: #fff;
 }
 
@@ -165,7 +165,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 250vh;
+    height: 1800px;
 }
 
 #bloco-projetos-section{
@@ -272,7 +272,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 40px;
 }
 
 #habilidades-section h1{
@@ -314,9 +314,12 @@ a{
 /* Linha personalizada */
 .linha-borda {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 2px; /* Espessura da linha */
     background-color: #fff; /* Cor da linha */
-    height: 80%; /* Tamanho da linha relativo ao container */
+    height: 420px; /* Tamanho da linha relativo ao container */
     top: 10%; /* Centraliza verticalmente */
 }
 
@@ -345,6 +348,10 @@ a{
     padding-bottom: 30px;
 }
 
+.linha-tecnologia #titulo-hard-skills{
+    padding-top: 50px;
+}
+
 .tecnologias{
     color: #fff;
     border: 2px solid #fff;
@@ -356,6 +363,10 @@ a{
     align-items: center;
     justify-content: space-evenly; 
     font-size: 18px;
+}
+
+.tecnologia:hover{
+    
 }
 
 
