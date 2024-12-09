@@ -363,10 +363,55 @@ a{
     align-items: center;
     justify-content: space-evenly; 
     font-size: 18px;
+    transition: background-color 0.3s ease
 }
 
-.tecnologia:hover{
-    
+.tecnologias.html:hover {
+    background-color: #E34C26; 
+}
+
+.tecnologias.css:hover {
+    background-color: #2965F1; 
+}
+
+.tecnologias.javascript:hover {
+    background-color: #F7DF1E; 
+}
+
+.tecnologias.git:hover {
+    background-color: #F05033; 
+}
+
+.tecnologias.github:hover {
+    background-color: #48044e;
+}
+
+.tecnologias.figma:hover {
+    background-color: #c50909; 
+}
+
+.tecnologias.java:hover {
+    background-color: #007396; 
+}
+
+.tecnologias.c:hover {
+    background-color: #00599C; 
+}
+
+.tecnologias.sql:hover {
+    background-color: #55180a;
+}
+
+.tecnologias.vue:hover{
+    background-color: #1a9752; 
+}
+
+.tecnologias.nodejs:hover{
+    background-color: #133f27; 
+}
+
+.tecnologias.postgres:hover{
+    background-color: #0a1ed1; 
 }
 
 
