@@ -47,6 +47,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Itera por todos os elementos com 'data-aos'
+    document.querySelectorAll('[data-aos]').forEach((element) => {
+        if (window.innerWidth <= 800) {
+            // Força o 'fade-up' em dispositivos móveis
+            element.setAttribute('data-aos', 'fade-up');
+        }
+    });
+
+    // Re-inicializa o AOS
+    AOS.init();
+});
+
 // Seleciona os links do menu e as seções
 const navLinks = document.querySelectorAll("#nav-list a");
 const sections = document.querySelectorAll("section");
