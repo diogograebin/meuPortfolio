@@ -649,6 +649,11 @@ a{
 
         .buttons-projeto{
             padding-top: 80px;
+            
+        }
+
+        .buttons-projeto button{
+        
         }
 
         #habilidades-section{
@@ -678,13 +683,17 @@ a{
             padding-left: 20px;
         }
 
+        .linha-tecnologia.titulo{
+            width: 80%;
+        }
+
         .linha-tecnologia #titulo-hard-skills{
             display: flex;
             padding: 20px;
             padding-top: 50px;
+            width: 300px;
             font-size: 2rem;
-            text-align: center;
-            justify-content: flex-end;
+            justify-content: center;
         }
 
         #container-tecnologias h2{
