@@ -6,6 +6,13 @@
     scroll-behavior: smooth;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Impede a rolagem lateral */
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #022840;
 }
@@ -634,7 +641,7 @@ a{
         }
 
         #projetos-section{
-            height: 750vh;
+            height: 5200px;
         }
 
         .projeto{
@@ -650,10 +657,6 @@ a{
         .buttons-projeto{
             padding-top: 80px;
             
-        }
-
-        .buttons-projeto button{
-        
         }
 
         #habilidades-section{
