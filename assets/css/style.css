@@ -266,7 +266,7 @@ a{
 }
 
 #habilidades-section{
-    height: 110vh;
+    height: 800px;
     width: 100%;
     background-color:#0A0C0D;
     display: flex;
@@ -366,6 +366,10 @@ a{
     transition: background-color 0.3s ease
 }
 
+.tecnologias:hover{
+    cursor: pointer;
+}
+
 .tecnologias.html:hover {
     background-color: #E34C26; 
 }
@@ -383,7 +387,7 @@ a{
 }
 
 .tecnologias.github:hover {
-    background-color: #48044e;
+    background-color: #6b3fa0;
 }
 
 .tecnologias.figma:hover {
@@ -399,7 +403,7 @@ a{
 }
 
 .tecnologias.sql:hover {
-    background-color: #55180a;
+    background-color: #ff7b00;
 }
 
 .tecnologias.vue:hover{
@@ -415,7 +419,53 @@ a{
 }
 
 
+#portfolio-footer {
+    background-color: #0A0C0D;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #88DFF2;
+}
 
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #88DFF2;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-credits p {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 10px;
+}
 
 
 
