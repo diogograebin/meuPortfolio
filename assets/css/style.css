@@ -659,6 +659,10 @@ a{
             
         }
 
+        .buttons-projeto button{
+            font-size: 1rem;
+        }
+
         #habilidades-section{
             height: 180vh;
         }
