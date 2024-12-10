@@ -625,7 +625,7 @@ a{
         }
         
         #icons-sobre img{
-            width: 28px;
+            width: 35px;
         }
 
         #texto-section-sobre{
@@ -656,8 +656,8 @@ a{
         }
 
         #container-tecnologias, #container-estudos{
-            border: 1px solid green;
             width: 300px;
+            padding-bottom: 50px;
         }
 
         #container-cards{
@@ -668,7 +668,10 @@ a{
             gap: 10px;
             padding-bottom: 10px;
             height: 70%;
-            border: 1px solid gray;
+        }
+
+        linha-tecnologia.estudos{
+            padding-bottom: 50px;
         }
 
         .linha-tecnologia.lista{
@@ -678,15 +681,15 @@ a{
         .linha-tecnologia #titulo-hard-skills{
             display: flex;
             padding: 20px;
-            font-size: 25px;
+            padding-top: 50px;
+            font-size: 2rem;
             text-align: center;
-            border: 1px solid rgb(0, 238, 255);
-            justify-content: center;
+            justify-content: flex-end;
         }
 
         #container-tecnologias h2{
             width: 350px;
-            border: 1px solid red;
+            font-size: 2rem;
         }
 
         .tecnologias{
