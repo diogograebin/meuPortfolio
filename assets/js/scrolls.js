@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         behavior: 'smooth',
                     });
                 } else if (target) {
-                    // Scroll ajustado para outras seções
+                    // Scroll para outras seções
                     const targetPosition = target.offsetTop - navbarHeight;
                     window.scrollTo({
                         top: targetPosition,
