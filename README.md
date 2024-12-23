@@ -8,6 +8,12 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para 
 
 ---
 
+## Exemplo de Tela
+
+![Exemplo de Tela](assets/img/tumbnails/meu-portfolio.svg)
+
+---
+
 ## 📋 Funcionalidades
 
 - 🌐 **Design Responsivo**: Compatível com dispositivos móveis, tablets e desktops.
